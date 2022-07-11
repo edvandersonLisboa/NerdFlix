@@ -1,0 +1,20 @@
+npm install -g yarn 
+yarn add express 
+Yarn global add nodemon
+## Log com as rotas atualizadas
+yarn add morgan
+## parsear json e url code
+yarn add body-parse
+yarn add mongoose.
+
+CRUD (CREATE, READ, UPDATE, DELETE)
+Convenção
+Read - GET
+Create - POST 
+Update - PUT 
+Delete - DELETE 
+
+
+Mongo DB
+w3schol.com
+mongodb.com

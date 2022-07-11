@@ -1,0 +1,92 @@
+body{
+    background: radial-gradient(circle, #00000063 100%, #00000000),url(../../img/page_login/background.jpg);
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.logo{
+    margin-left: 40px;
+   
+}
+.logo img{
+    height: 50px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    justify-items: flex-start;
+    width: 100%;
+}
+main .group_form{
+    background: #000;
+    height: 500px;
+    width: 250px;
+    padding: 20px 60px 20px 60px;
+    border-radius: 5px;
+}
+main section h1{
+    color: white;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+main  form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 60%;
+}
+main article input[type="text"], main article input[type="password"]  {
+    width: calc(100% - 20px);
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    background: #2C2B2B;
+    padding-left: 20px;
+}
+main article button {
+    width: 100%;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    background: #e81a1a;
+}
+
+main article input[type="checkbox"]
+{
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+}
+main article label{
+    color: white;
+    font-family: sans-serif;
+    font-size: 0.8em;
+}
+main .text_novo_aqui, main .text_reCaptcha{
+    color:#908D8D;
+    margin-top: 10px;
+}
+main .text_assine_aqui{
+    color: white;
+    
+
+}
+main .text_saiba_mais{
+color:blue;
+}
+
+
